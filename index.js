@@ -23,3 +23,12 @@ const intervalId=setInterval(()=>{
     now.setSeconds(now.getSeconds()+1);
     updateTime(now);
 },1000);
+
+// function renderNotification(text) {
+//     const list=document.querySelector('ul')
+//     const notification=document.createElement('li');
+//     notification.innerText=text;
+//     list.append(notification);
+//     return notification;
+//
+// };
