@@ -1,30 +1,31 @@
-.welcomeText{
-    display: flex;
-    min-width: 100px;
-    min-height: 100px;
-    background-color: green;
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #f5fcff;
 }
-.infoJS{
+.time{
     display: flex;
-    min-width: 500px;
-    min-height: 100px;
-    background-color: aqua;
-    font-family: Arial;
-    font-size: medium;
+    align-items: center;
+    font-size: 300px;
+    font-family: fantasy;
+    padding-top: 150px;
+
 }
-.moreInfo{
-    display: flex;
-    min-width: 100px;
-    min-height: 100px;
-    background-color: rgba(89, 255, 0, 0.52);
-    font-family: Arial;
-    font-size: medium;
+.hours{
+    border-radius: 8px;
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
 }
-.peremennye{
-    display: flex;
-    min-width: 100px;
-    min-height: 100px;
-    background-color: rgba(255, 38, 0, 0.52);
-    font-family: Arial;
-    font-size: medium;
+.minutes{
+    border-radius: 8px;
+    width: 500px;
+    height: 500px;
+    background-color: darkslategray;
+}
+.seconds{
+    border-radius: 8px;
+    width: 500px;
+    height: 500px;
+    background-color: cornflowerblue;
 }
