@@ -1,2 +1,3 @@
 # ClockApplication
-My siple clock application, use html,css,js together
+My simple clock application, use html,css,js together
+use Object Date,intervals, DOM, queryselectors
