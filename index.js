@@ -12,7 +12,6 @@ function updateTime(date) {
     hours.innerText=date.getHours().toString().padStart(2, '0');
     minutes.innerText=date.getMinutes().toString().padStart(2, '0');
     seconds.innerText=date.getSeconds().toString().padStart(2, '0');
-
 }
 updateTime(now);
 // setInterval(()=>{
@@ -32,29 +31,4 @@ const intervalId=setInterval(()=>{
 //     return notification;
 //
 // };
-const button = document.querySelector('button');
-const list = document.querySelector('ul');
-const names = ['Bohdan', 'Stepan', 'Yura', 'Julia', 'Olena'];
 
-const renderItem = (text) => {
-    const item = document.createElement('li');
-    const button = document.createElement('button');
-    button.innerText = 'X';
-    item.innerText = text;
-    item.append(button);
-    button.onclick = () => {
-        item.remove();
-    };
-    item.onmousedown = () => {
-        item.classList.add('red');
-    };
-
-    item.onmouseup = () => {
-        item.classList.remove('red');
-    }
-
-
-    list.append(item);
-};
-
-names.forEach(renderItem);

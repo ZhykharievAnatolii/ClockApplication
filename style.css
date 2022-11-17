@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     margin: 0;
-    background-color: #f5fcff;
+    background-color: lightblue;
 }
 .time{
     display: flex;
@@ -14,35 +14,44 @@ body{
 
 }
 .hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     width: 500px;
     height: 500px;
     background-color: cadetblue;
+    /*animation: flipInX;*/
+    /*animation-delay:3599s;*/
+    /*animation-duration: 1s;*/
+    /*animation-direction:3600s;*/
 }
 .minutes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     width: 500px;
     height: 500px;
     background-color: darkslategray;
+    animation: flipInX;
+    animation-delay:59s;
+    animation-duration: 1s;
+    /*animation-direction:60s;*/
+    /*animation-iteration-count:*/
 }
 .seconds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     width: 500px;
     height: 500px;
     background-color: cornflowerblue;
-}
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    border: 1px solid black;
-    padding: 3px;
-    text-align: center;
-}
-
-th {
-    font-weight: bold;
-    background-color: #E6E6E6;
+    /*animation: flipInX;*/
+    animation: flipOutY;
+    /*animation: slideInDown;*/
+    opacity: 0.3;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
 }
