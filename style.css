@@ -55,3 +55,18 @@ body{
     animation-duration: 1s;
     animation-iteration-count:infinite;
 }
+.settings{
+    display: flex;
+    justify-content: center;
+}
+.setTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    color: cadetblue;
+    min-width: 150px;
+    min-height: 50px;
+    background-color: darkslategray;
+    border-radius: 8px;
+}
