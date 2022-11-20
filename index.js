@@ -31,6 +31,8 @@ const intervalId=setInterval(()=>{
 //     return notification;
 //
 // };
-// const buttonSetTime=document.createElement('button');
-
+const buttonSetTime=document.querySelector('.setTime');
+setTime.onclick=(event)=>{
+console.log(event.target)
+}
 
