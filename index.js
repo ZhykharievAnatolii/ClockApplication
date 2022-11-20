@@ -32,7 +32,12 @@ const intervalId=setInterval(()=>{
 //
 // };
 const buttonSetTime=document.querySelector('.setTime');
-setTime.onclick=(event)=>{
-console.log(event.target)
+// setTime.onclick=(event)=>{
+// console.log(event.target)
+// }
+const buttonChangeColor=document.querySelector('.buttonCenter')
+header.onclick = (event) => {
+    if (event.target.matches('.buttonCenter')) {
+        event.target.style.backgroundColor = 'red';
+    }
 }
-

@@ -70,3 +70,12 @@ body{
     background-color: darkslategray;
     border-radius: 8px;
 }
+.buttonCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 6px;
+    min-width: 100px ;
+    min-height: 25px;
+}
