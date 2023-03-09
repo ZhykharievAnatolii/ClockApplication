@@ -1,8 +1,4 @@
 "use strict"
-/**
- *
- * @type {Date} date
- */
 const now=new Date();
 function updateTime(date) {
     const hours=document.querySelector('.hours');
